@@ -4,12 +4,12 @@
 
 export const environment = {
   production: false,
-  apiBase: 'http://localhost:3000/api/',
-  apiImage: 'https://localhost:3000/images/',
-  downloadimage: 'http://localhost:3000/',
-  appName: 'AETASAAL',
-  googleAPIKey: 'AIzaSyAC_Sr8Spc8-D5wjzMGlh0EaPHsLhEtxE0',
-  appVersion: 1.1,
+  apiBase: process.env.API_BASE || 'http://localhost:3000/api/',
+  apiImage: process.env.API_IMAGE || 'https://localhost:3000/images/',
+  downloadImage: process.env.DOWNLOAD_IMAGE || 'http://localhost:3000/',
+  appName: process.env.APP_NAME || 'AETASAAL',
+  googleAPIKey: process.env.GOOGLE_API_KEY || 'your_google_api_key_here',
+  appVersion: process.env.APP_VERSION || '1.1',
   platform: 'web'
 };
 
