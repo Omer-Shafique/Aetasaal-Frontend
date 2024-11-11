@@ -1472,6 +1472,13 @@
     .hidden-md-down {
         display: none !important;
     }
+    .togglemain .togglebtn {
+        display: none;
+      }
+
+      .app-container {
+        left: -10% !important;
+    }
 }
 
 @media (min-width: 992px) {

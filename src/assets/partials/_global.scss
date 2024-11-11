@@ -965,16 +965,43 @@ hr {
 }
 
 @media (max-width: 991px) {
-    .mobile-nav-btn {
-        display: block;
-    }
+
+.mobile-nav-btn {
+    display: block !important;
+    color: white !important;
+    background-color: rgb(255, 255, 255) !important;  
+    width: 35px; 
+    height: 30px; 
+    border-radius: 3px; 
+    position: fixed;
+    top: 30px;
+    left: 38px; 
+    transform: translate(-50%, -50%); 
+    z-index: 1000; 
+    cursor: pointer;
+    transition: 0.6s;
+    z-index: 1000000;
+  }
+  
+  .app-container {
+    width: 100vw !important; 
+    height: 100vh !important; 
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.6s;
+    box-sizing: border-box;
+}
+
 }
 
 .app-container {
     width: 100%;
     overflow: hidden;
     position: relative;
-    left: 0;
+    left: 0%;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;

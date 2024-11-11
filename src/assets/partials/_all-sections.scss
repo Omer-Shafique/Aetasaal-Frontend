@@ -390,7 +390,7 @@ body {
       margin-bottom: 20px;
       span {
         &.ng-star-inserted {
-          color: #014c72 !important;
+          color: #b80000 !important;
         }
       }
     }
@@ -502,4 +502,60 @@ body {
   float: right;
   margin-top: 8px;
   margin-right: 15px;
+}
+
+
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary{
+  background-color: #b80000 !important;
+}
+
+
+@media (max-width: 992px){
+
+    header.ph.auto {
+      width: 100vw !important;
+      transition: 0.6s !important;
+      margin: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      top: 0 !important;
+      padding: 0 !important;
+      position: fixed !important; /* Fixes it at the top */
+      z-index: 1000 !important; /* Ensures it stays above other elements */
+      display: flex !important;
+      justify-content: left !important; /* Centers content horizontally */
+      align-items: left !important; /* Centers content vertically */
+    }
+
+body{
+  margin-top:30px !important;
+}
+
+.logo {
+      width: auto; /* Ensure the container does not stretch */
+      max-width: 150px; /* Adjust max size as needed */
+}
+  
+.logo img {
+      display: none !important;
+
+}
+
+.profile-img{
+  margin-top: 40px !important;
+}
+
+.right .fs-medium {
+  font-size: 16px; 
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.right .fs-xsmall {
+  font-size: 12px; 
+  color: #ffffff !important; 
+  text-align: center;
+}
+
+
 }

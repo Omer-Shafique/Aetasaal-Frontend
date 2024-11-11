@@ -275,7 +275,7 @@
   &.main-box {
     background: #f1f2f7;
     float: right;
-    width: 85%;
+    width: 100%;
     transition: 0.6s;
 
     @media (max-width: 768px) {
@@ -443,6 +443,7 @@ ul {
   padding: 10px;
 
   .header {
+    
   }
 
   table {
@@ -675,7 +676,7 @@ div {
           top: -2px;
           right: -46px;
           background-color: white;
-          color: #014c72;
+          color: #b80000;
           transform: rotate(41deg);
           line-height: 19px;
           text-align: center;
